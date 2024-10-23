@@ -1,0 +1,175 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+}
+
+.mainvid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav {
+    position: relative; 
+    z-index: 1;
+    color: white; 
+margin-top: 50px;
+display: flex;
+margin-top: -50px;
+padding: 90px;
+ padding-top: 10px;}
+
+.navbar ul {
+    list-style: none;
+    padding: 60px;
+    padding-top: 67px;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-style: bold;
+    
+}
+
+.logo1 {
+    height: 180px; 
+
+}
+.shoplogo {
+    
+    display: flex; 
+    align-items: center;
+    margin-left: 230px;
+     
+}
+
+.shop {
+    color: white;
+    margin-right: 10px; 
+    font-size: small;
+}
+.contentmain{
+    
+    margin: 150px;
+    
+    font-size: 20px;
+    width: 400px;
+color: white;
+}
+.button{width: 190px;
+    height: 60px;
+color: white;
+background-color: rgba(0, 0, 0, 0);
+border-color:white ;
+border-width: 2px;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.body1{
+   position: relative; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    object-fit: contain;
+}
+.body1img{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    
+}
+.contentmain1{
+    position: absolute;
+    margin-top: -300px;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    margin: 150px;
+    margin-top: 400px;
+}
+.button1{width: 190px;
+    height: 60px;
+color: white;
+background-color: rgba(0, 0, 0, 0);
+border-color:white ;
+border-width: 2px;
+
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+}
+.body2{
+    position: relative; 
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1; 
+     object-fit: contain;
+ }
+ .body2img{
+     height:100%;
+     width: 100%;
+     position: absolute;
+     
+ }
+ .contentmain2{
+     position: absolute;
+     margin-top: -300px;
+     color: white;
+     font-size: 20px;
+     width: 400px;
+     margin: 150px;
+     margin-top: 340px;
+ }
+ .button2{width: 190px;
+     height: 60px;
+ color: white;
+ background-color: rgba(0, 0, 0, 0);
+ border-color:white ;
+ border-width: 2px;
+ 
+ }
+ footer{
+     color: rgb(255, 255, 255);
+     font-size: 12px;
+     margin-top: -10px;
+     background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ footer p{
+    padding: 20px;
+ }
+ 
+ 
+
